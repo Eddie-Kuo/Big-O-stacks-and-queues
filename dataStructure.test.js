@@ -1,5 +1,6 @@
 const { Stack } = require('./CH-01.js');
 const { Queue } = require('./CH-02');
+const { Reversal } = require('./CH-04');
 
 describe('CH-01', () => {
   test('add item to list', () => {
@@ -42,5 +43,13 @@ describe('CH-02', () => {
   test('checks if theres another item left in queue', () => {
     const newQueue = new Queue([1, 2]);
     expect(newQueue.hasNext()).toEqual(true);
+  });
+});
+
+describe('CH-04', () => {
+  test('reverses an array', () => {
+    const Array = new Reversal([1, 2, 3, 4]);
+    const newArr = Array.reverse();
+    expect(newArr).toEqual([4, 3, 2, 1]);
   });
 });
