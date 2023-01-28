@@ -14,3 +14,4 @@ function multiplesOfN(n) {
 }
 
 console.log(multiplesOfN(2));
+console.log(multiplesOfN(51));
