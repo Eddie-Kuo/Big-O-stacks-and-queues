@@ -18,4 +18,3 @@ function addFirst(element) {
 // console.log(addItem(['testing', 'if', 'this', 'works', 'or', 'not']));
 const addItem = addFirst('Orange');
 console.log(addItem(['1', '2', '3', '4', '5', '6']));
-// console.log(addFirst('orange'));
